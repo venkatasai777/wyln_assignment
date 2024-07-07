@@ -1,0 +1,344 @@
+.appContainer {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.headerCon-mobile {
+  width: 100vw;
+  border: 1px solid darkgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.headerCon-pc {
+  width: 80vw;
+  border: 1px solid darkgray;
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 28px;
+}
+.logo {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-size: 32px;
+  color: #000;
+}
+.menuList {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.home {
+  font-size: 14px;
+  color: blue;
+  margin-right: 12px;
+  
+}
+.linkcss {
+  text-decoration: none;
+  color: blue;
+  cursor: pointer;
+}
+.userProfile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: darkviolet;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeContainer {
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcomeHeading {
+  font-size: 32px;
+}
+.clickHereCss {
+  font-size: 18px;
+}
+.allPostsCon {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.allpostSecCon {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid darkgray;
+  margin-top: 58px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.allPostsHead {
+  font-size: 18px;
+  color: black;
+}
+.addNewPostBtn {
+  width: 120px;
+  height: 40px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.allPostsList {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 24px;
+}
+.EachPostCon {
+  width: 320px;
+  height: 600px;
+  border: 1px solid #000;
+  margin-bottom: 18px;
+  margin-right: 18px;
+  align-self: center;
+  justify-self: center;
+  margin-left: 18px;
+  overflow: hidden;
+}
+.topSection {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 0px;
+}
+.leftPartCon {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 14px;
+}
+.profileRound {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: goldenrod;
+  color: #fff;
+  font-size: 24px;
+}
+.profileDetailsCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.userName {
+  margin: 0px;
+  margin-top: 30px;
+  font-size: 16px;
+  margin-left: 14px;
+  height: 20px;
+}
+.ActiveCss {
+  display: inline;
+  margin: 0px;
+  margin-top: 8px;
+  margin-left: 14px;
+  font-size: 12px;
+}
+.rightPartCon {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 28px;
+}
+.editBtnBox {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.imageSection{
+  width: 100%;
+  height: 300px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.postImg {
+  width: 98%;
+  height: 300px;
+  margin-top: 100px;
+  background-position: center;
+}
+.contentSection {
+  width: 90%;
+  font-size: 18px;
+  margin-top: 28px;
+  padding: 8px;
+  overflow-y: auto;
+  scrollbar-width: 0px;
+}
+
+.addPostCon {
+  width: 280px;
+  height: 600px;
+  margin: auto;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.addPostCon h2 {
+  text-align: center;
+  color: crimson;
+  margin-bottom: 66px;
+}
+.addPostCon input {
+  width: 90%;
+  border: 1px solid darkgray;
+  height: 40px;
+  margin-bottom: 66px;
+  padding-left: 18px;
+}
+.addPostCon label {
+  font-size: 14px;
+  align-self: flex-start;
+  margin-left: 12px;
+}
+.uploadContainer {
+  width: 150px;
+  height: 45px;
+  background-color: blue;
+  border-radius: 24px;
+}
+.imagecontainer {
+  width: 124px;
+  height: 40px;
+  background-color: blue;
+}
+#imageUploadsec {
+  border: none;
+  margin-bottom: 0px;
+}
+#submitBtn {
+  width: 120px;
+  height: 40px;
+  border-radius: 24px;
+  background-color: blue;
+  color: #fff;
+  outline: none;
+  border: none;
+  margin-top: 24px;
+}
+@media screen and (min-width: 725px) {
+  .headerCon-mobile{
+    display: none;
+  }
+  .headerCon-pc {
+    display: flex;
+    width: 97.8vw;
+  }
+  .welcomeHeading {
+    font-size: 125px;
+  }
+  .clickHereCss {
+    font-size: 28px;
+  }
+  .addPostCon {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .addPostCon h2 {
+    text-align: center;
+    color: crimson;
+    margin-bottom: 66px;
+  }
+  .addPostCon input {
+    width: 95%;
+    border: 1px solid darkgray;
+    height: 40px;
+    margin-bottom: 66px;
+    padding-left: 18px;
+  }
+  .addPostCon label {
+    font-size: 14px;
+    align-self: flex-start;
+    margin-left: 12px;
+  }
+  .uploadContainer {
+    width: 150px;
+    height: 45px;
+    background-color: blue;
+    border-radius: 24px;
+  }
+  .imagecontainer {
+    width: 124px;
+    height: 40px;
+    background-color: blue;
+  }
+  #imageUploadsec {
+    border: none;
+    margin-bottom: 0px;
+  }
+  #submitBtn {
+    width: 120px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: blue;
+    color: #fff;
+    outline: none;
+    border: none;
+  }
+}
